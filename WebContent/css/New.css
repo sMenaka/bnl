@@ -1,0 +1,35 @@
+body{
+	background-color:#014712;
+	
+}
+.my-menu{
+    background-color:#014712;
+    margin-bottom:1px;
+}
+
+.my-menu a{
+    
+    color: #FFFFFF;
+    background-color: #014712;
+    font-size:20px;
+}
+my-menu.nav>li>a:focus, .nav>li>a:hover {
+    color:#000000;
+    background-color:#01CE34;
+}
+.my-menu.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color:#058C27;
+}
+
+.row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+	align:center;
+}
+.mtd{
+	padding-top:20px;
+	padding-left:20px;
+}
